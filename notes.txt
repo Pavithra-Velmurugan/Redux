@@ -1,0 +1,35 @@
+Redux is a state management tool=>complex
+
+Multiple types of Redux
+1.redux
+2.redux-toolkit
+3.redux-persist
+
+redux=> helps us to Enable the reux archietecture (core library)
+react - Redux=> connect react components to redux store
+redux-toolkit => maintainability, organized in easy way
+Redux - Terminology
+------------------
+Store =>manage all the states=> global object
+action=>CRUD operation
+Reducer=> what to add => function => current state and action type
+dispatch=> state updated
+
+Redux - Toolkit Terminology
+------------------------------------
+Reducer + Action => createslice
+setup redux store => configurestore (combine any reducer)
+
+steps
+---------------
+1. Define the store => configurestore()
+2.Define the reducer + action => createslice()
+3. select & dispatc h =>useSelector & useDispatch
+
+Benefits
+----------
+1.Centralized state management=>store => complex
+2. get updated states3. debug => redux devTool chrome extension
+4.performance
+
+
